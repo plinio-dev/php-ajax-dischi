@@ -69,23 +69,18 @@ $database = [
         'author' => 'Eric Clapton',
         'genre' => 'Rock',
         'poster' => 'https://upload.wikimedia.org/wikipedia/en/9/97/Eric_Clapton_OMCOMR.jpg',
-        'title' => 'Brave new World',
+        'title' => 'One more car, one more raider',
         'year' => '2000',
 
     ],
     [
-        'author' => 'Iron Maiden',
-        'genre' => 'Metal',
-        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/810nSIQOLiL._SY355_.jpg',
-        'title' => 'Brave new World',
-        'year' => '2000',
+        'author' => 'Steve Gadd Band',
+        'genre' => 'Jazz',
+        'poster' => 'https://cdn2.jazztimes.com/2018/05/SteveGadd-800x723.jpg',
+        'title' => 'Steve Gadd Band',
+        'year' => '2018',
 
     ],
-
-
 ]
-
-
-
 
 ?>

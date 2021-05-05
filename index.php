@@ -1,3 +1,8 @@
+<?php
+    include __DIR__ . '/database.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,25 +42,15 @@
       foreach($database as $album) : ?>
       <div class="cd">
         <img :src="<?php echo $album['poster']?>" alt="<?php echo $album['title']?>">
-        <h3>{{ album.title }}</h3>
-        <span class="author">{{ album.author }}</span>
-        <span class="year">{{ album.year }}</span>
+        <h3><?php echo $album['title']?></h3>
+        <span class="author"><?php echo $album['author']?></span>
+        <span class="year"><?php echo $album['year']?></span>
       </div> 
-
-
-
-
-      <!-- <div class="cd" v-for='album in sorted' v-if="(album.genre == select) || (select == 'All') || (select == '') ">
-        <img :src="album.poster" :alt="album.title">
-        <h3>{{ album.title }}</h3>
-        <span class="author">{{ album.author }}</span>
-        <span class="year">{{ album.year }}</span>
-      </div> -->
-    // <?php endforeach; ?>
+    <?php endforeach; ?>
     </div>
   
 
- <script src="js/script.js" charset="utf-8"></script>
+ <!-- <script src="js/script.js" charset="utf-8"></script> -->
 </body>
 </html>
 

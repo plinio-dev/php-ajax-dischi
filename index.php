@@ -41,7 +41,7 @@
     <?php 
       foreach($database as $album) : ?>
       <div class="cd">
-        <img :src="<?php echo $album['poster']?>" alt="<?php echo $album['title']?>">
+        <img src="<?php echo $album['poster']?>" alt="<?php echo $album['title']?>">
         <h3><?php echo $album['title']?></h3>
         <span class="author"><?php echo $album['author']?></span>
         <span class="year"><?php echo $album['year']?></span>

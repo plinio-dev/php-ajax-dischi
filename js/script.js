@@ -16,7 +16,7 @@ var app = new Vue ({
     },
 
     mounted: function() {
-      axios.get('https://flynn.boolean.careers/exercises/api/array/music').then((risposta) => {
+      axios.get('http://localhost/php-ajax-dischi/api.php').then((risposta) => {
         // console.log(risposta);
         this.albums = risposta.data.response;
         // console.log(this.albums);
